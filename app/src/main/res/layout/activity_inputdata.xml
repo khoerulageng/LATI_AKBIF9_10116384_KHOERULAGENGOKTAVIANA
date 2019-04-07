@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inputdata">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f8f8f8">
+
+        <TextView
+            android:id="@+id/textv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Panggilan Kamu"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="24dp"
+            android:fontFamily="@font/nunito_bold"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/edit2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/textv7"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="50dp"
+            android:hint="Contoh : Budi" />
+
+        <TextView
+            android:id="@+id/textv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Umur Kamu"
+            android:layout_below="@+id/edit2"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="24dp"
+            android:fontFamily="@font/nunito_bold"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/edit3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/textv8"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="50dp"
+            android:hint="Contoh : 12" />
+
+        <Button
+            android:id="@+id/btn_masuk3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="660dp"
+            android:background="@drawable/layerlist1"
+            android:text="Selanjutnya"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:onClick="selanjutnya"
+            android:fontFamily="@font/nunito_bold"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

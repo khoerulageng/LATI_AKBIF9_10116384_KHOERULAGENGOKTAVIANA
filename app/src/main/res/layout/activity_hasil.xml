@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hasil">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f8f8f8">
+
+        <TextView
+            android:id="@+id/textv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beres! Sekarang"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="24dp"
+            android:fontFamily="@font/nunito_bold"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/textv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kamu"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="180dp"
+            android:fontFamily="@font/nunito_bold"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/textv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="udah bisa ngecek penggunaan HP mu tiap hari buat bantu kamu ngatur waktu :)"
+            android:layout_below="@id/textv10"
+            android:layout_marginLeft="24dp"
+            android:fontFamily="@font/nunito_bold"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/btn_masuk3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="660dp"
+            android:background="@drawable/layerlist1"
+            android:text="Oke"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:onClick="keluar"
+            android:fontFamily="@font/nunito_bold"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

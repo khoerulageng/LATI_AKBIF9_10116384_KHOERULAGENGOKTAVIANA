@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PRETEST_IF9_10116384_KHOERULAGENGOKTAVIANA</string>
+    <string name="privacy">Dengan menekan tombol masuk berarti anda menyetujui\n<b>Ketentuan Pengguna </b> dan <b>Kebijakan Data</b> Kami </string>
+    TextView view = (TextView)findViewById(R.id.sampleText);
+</resources>
